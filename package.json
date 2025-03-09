@@ -1,10 +1,10 @@
 {
-  "name": "lastrepolinkedincourse",
+  "name": "@Zikeyyy/lastrepolinkedincourse",
   "version": "1.1.1",
   "description": "demo for github action workflow",
-  "main": "/src/appOperations.js",
+  "main": "src/appOperations.js",
   "files": [
-    "/src"
+    "src"
   ],
   "repository": {
     "type": "git",
