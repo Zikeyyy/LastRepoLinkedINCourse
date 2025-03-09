@@ -3,13 +3,12 @@
   "version": "1.1.1",
   "description": "demo for github action workflow",
   "main": "/src/appOperations.js",
-  "files": [ 
+  "files": [
     "/src"
   ],
-
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zikeyyy/LastRepoLinkedINCourse"
+    "url": "git+https://github.com/Zikeyyy/LastRepoLinkedINCourse.git"
   },
   "scripts": {
     "test": "jest --coverage"
