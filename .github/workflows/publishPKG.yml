@@ -16,8 +16,8 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                 node-version: 20
-                registry-url: 'https://npm.pkg.github.com'
-                scope: '@Zikeyyy'
+                registry-url: 'https://registry.npmjs.org'  # Change to npm registry
+                scope: '@Zikeyyy'  # Ensure this matches your package name
             - run: npm ci
             - run: npm publish
               env:
