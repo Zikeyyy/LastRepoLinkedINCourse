@@ -7,7 +7,7 @@ function add(num1, num2){
     const intNum2 = parseInt(num2, 10);
     return num1+num2;
 }
-//ss
+
 
 function devide(num1, num2){
     return num1/num2;
